@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ListaUsuariosComponent } from './lista-usuarios.component';
+import { BuscarEnderecoComponent } from './buscar-endereco.component';
 
-describe('ListaUsuariosComponent', () => {
-  let component: ListaUsuariosComponent;
-  let fixture: ComponentFixture<ListaUsuariosComponent>;
+describe('BuscarEnderecoComponent', () => {
+  let component: BuscarEnderecoComponent;
+  let fixture: ComponentFixture<BuscarEnderecoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ListaUsuariosComponent ]
+      declarations: [ BuscarEnderecoComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ListaUsuariosComponent);
+    fixture = TestBed.createComponent(BuscarEnderecoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,0 +1,9 @@
+<div>
+  <label class="form-label" for="">CEP:</label>
+  <input class="form-control" type="text" placeholder="00000-000" name="cep" id="cep" [(ngModel)]="cep">
+</div>
+<button class="btn btn-primary" style="margin-top: 8px;" (click)="buscarCep()">Buscar endereço</button>
+<br>
+{{enderecoCompleto.ddd}}
+<br>
+{{enderecoCompleto.logradouro}}

@@ -11,8 +11,8 @@ export class FormularioEnderecoComponent implements OnInit {
   constructor(private minhareq: HttpClient) {}
   ngOnInit(): void {}
 
-  cep = '';
-  endereco: EnderecoModel = new EnderecoModel();
+  cep!: string;
+  endereco!: EnderecoModel;
 
   buscarCep() {
     var urlBuscarCep = `https://viacep.com.br/ws/${this.cep}/json/`;
